@@ -48,21 +48,22 @@ $(document).ready(function () {
 
 
     // Slick slider fuad
-    if ($('.testimonial__init').length > 0) {
-        $('.testimonial__init').slick({
+    if ($('.slider__init').length > 0) {
+        $('.slider__init').slick({
             infinite: true,
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: false,
             autoplaySpeed: 2000,
             prevArrow: $('.slick-prev'),
             nextArrow: $('.slick-next'),
+
             // asNavFor: '.achivements__init',
             responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                         infinite: true,
 
@@ -71,7 +72,7 @@ $(document).ready(function () {
                 {
                     breakpoint: 991,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         // dots: true,
 
