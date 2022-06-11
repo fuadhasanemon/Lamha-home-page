@@ -92,6 +92,51 @@ $(document).ready(function () {
         });
     }
 
+
+    if ($('.banner__init').length > 0) {
+        $('.banner__init').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            prevArrow: $('.slick-prev'),
+            nextArrow: $('.slick-next'),
+
+            // asNavFor: '.achivements__init',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        // dots: true,
+
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+
+                    }
+                }
+
+            ]
+
+        });
+    }
+
     //------------ nice select
     if ($('.Select').length > 0) {
         $('.Select select').niceSelect();

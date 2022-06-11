@@ -1088,571 +1088,179 @@ html body .nav-bar #custom-navbar {
       color: #202020;
       text-transform: capitalize; }
 
-.features {
-  background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-2.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 0;
-  padding-bottom: 120px;
-  position: relative; }
-  .features .img-wrap {
+.portfolio-section {
+  position: relative;
+  padding: 120px 0;
+  overflow: hidden;
+  background-color: #2CB7EA; }
+  .portfolio-section .container {
+    padding: 0; }
+  .portfolio-section .custom-shape-divider-top-1654898688 {
     position: absolute;
-    bottom: 35px;
-    right: 10%;
-    max-width: 8%; }
-  .features .container .row .features-col-one {
-    padding: 75px 100px 75px 0; }
-    .features .container .row .features-col-one h1 {
-      margin: 20px 0;
-      font-size: 36px;
-      line-height: 1.35;
-      font-weight: 600;
-      color: #040222;
-      font-style: normal; }
-    .features .container .row .features-col-one p {
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 26px;
-      color: #242230;
-      font-style: normal; }
-    .features .container .row .features-col-one .custom-btn-arrow {
-      padding: 0 0 3px 0;
-      margin-left: 0; }
-      .features .container .row .features-col-one .custom-btn-arrow:hover {
-        color: #5227c7; }
-  .features .container .row .features-col-two {
-    background-color: #f1f3ff;
-    border-radius: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0; }
+  .portfolio-section .custom-shape-divider-top-1654898688 svg {
     position: relative;
-    height: 460px; }
-    .features .container .row .features-col-two .img-wrap {
-      position: absolute;
-      max-width: 40%;
-      opacity: .2;
-      bottom: 45px;
-      left: 18%; }
-    .features .container .row .features-col-two .image-container .img-wrap-one {
-      position: absolute;
-      left: 0; }
-    .features .container .row .features-col-two .image-container .img-wrap-two {
-      max-width: 80%;
-      position: absolute;
-      top: 140px;
-      left: 225px; }
-
-.testimonial {
-  background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-31.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 120px; }
-  .testimonial .container .row .testimonial__content {
-    background-color: #f7f4fd;
-    padding: 70px 70px 40px;
-    border-radius: 15px;
-    display: flex; }
-    .testimonial .container .row .testimonial__content .img-wrap {
-      margin-right: 50px; }
-    .testimonial .container .row .testimonial__content .text-content h2 {
-      font-size: 36px;
-      line-height: 1.35;
-      font-weight: 600;
-      color: #040222;
-      font-style: normal;
-      margin-bottom: 30px; }
-    .testimonial .container .row .testimonial__content .text-content h5 {
-      font-size: 18px;
-      line-height: 1.3;
-      font-weight: 600;
-      color: #040222;
-      font-style: normal; }
-    .testimonial .container .row .testimonial__content .text-content p {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 26px;
-      color: #242230;
-      font-style: normal; }
-
-.pricing-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #5d21d2;
-  background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/banner-clean.jpg);
-  background-position: top center;
-  background-size: cover; }
-  .pricing-section .img-container {
-    position: relative; }
-    .pricing-section .img-container .img-wrap-two {
-      position: absolute;
-      max-width: 7%;
-      left: 180px;
-      top: 0; }
-  .pricing-section .container .row-one {
-    padding: 10px;
-    margin-bottom: 40px; }
-    .pricing-section .container .row-one .col-md-12 {
-      text-align: center; }
-      .pricing-section .container .row-one .col-md-12 .cutom-tag {
-        background-color: #6e38d8; }
-        .pricing-section .container .row-one .col-md-12 .cutom-tag h5 {
-          text-align: center;
-          color: #fff;
-          font-size: 14px;
-          text-transform: uppercase;
-          letter-spacing: .5px; }
-      .pricing-section .container .row-one .col-md-12 h2 {
-        font-size: 36px;
-        line-height: 1.35;
-        font-weight: 700;
-        color: #fff;
-        font-style: normal;
-        margin: 20px 0; }
-      .pricing-section .container .row-one .col-md-12 p {
-        max-width: 700px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-        color: #fff;
-        font-style: normal;
-        margin: 0 auto; }
-  .pricing-section .container .row-two {
-    margin-left: -30px;
-    margin-right: -30px; }
-    .pricing-section .container .row-two .services__column {
-      position: relative;
-      padding-right: 20px;
-      padding-left: 20px; }
-      @media (max-width: 767px) {
-        .pricing-section .container .row-two .services__column {
-          margin-bottom: 50px; } }
-      .pricing-section .container .row-two .services__column .services__column__item-one {
-        background-color: #f7f3f2;
-        padding: 50px 40px;
-        text-align: left;
-        border-radius: 15px; }
-        .pricing-section .container .row-two .services__column .services__column__item-one .content h2 {
-          font-weight: 700;
-          line-height: 1.13em; }
-        .pricing-section .container .row-two .services__column .services__column__item-one .content p {
-          color: #242230;
-          font-weight: 400; }
-        .pricing-section .container .row-two .services__column .services__column__item-one .content .price {
-          display: flex;
-          padding-bottom: 20px; }
-          .pricing-section .container .row-two .services__column .services__column__item-one .content .price small {
-            font-size: 20px;
-            line-height: 1.13em;
-            font-weight: 500;
-            padding-top: 12px; }
-          .pricing-section .container .row-two .services__column .services__column__item-one .content .price h3 {
-            font-size: 20px; }
-            .pricing-section .container .row-two .services__column .services__column__item-one .content .price h3 span {
-              color: #040222;
-              font-size: 72px;
-              font-weight: 700; }
-        .pricing-section .container .row-two .services__column .services__column__item-one .content .custom-btn-one {
-          text-align: center;
-          display: block;
-          border: 1px solid #5227c7;
-          background: #5227c7;
-          color: #fff; }
-          .pricing-section .container .row-two .services__column .services__column__item-one .content .custom-btn-one:hover {
-            border-color: #3f1e98;
-            background: #3f1e98;
-            color: #fff; }
-        .pricing-section .container .row-two .services__column .services__column__item-one .content .lists {
-          margin-top: 20px; }
-          .pricing-section .container .row-two .services__column .services__column__item-one .content .lists ul li {
-            color: #040222;
-            font-weight: 400;
-            line-height: 1.5em;
-            margin-bottom: 12px;
-            position: relative;
-            padding-left: 25px; }
-            .pricing-section .container .row-two .services__column .services__column__item-one .content .lists ul li::before {
-              background-color: #5d21d2;
-              position: absolute;
-              content: "";
-              width: 8px;
-              height: 8px;
-              position: absolute;
-              top: 8px;
-              left: 0;
-              border-radius: 50%; }
-        .pricing-section .container .row-two .services__column .services__column__item-one a:hover {
-          color: #5227c7; }
-      .pricing-section .container .row-two .services__column .services__column__item-two {
-        background-color: #f7f3f2;
-        padding: 50px 40px;
-        text-align: left;
-        border-radius: 15px; }
-        .pricing-section .container .row-two .services__column .services__column__item-two .content h2 {
-          font-weight: 700;
-          line-height: 1.13em; }
-        .pricing-section .container .row-two .services__column .services__column__item-two .content p {
-          color: #242230;
-          font-weight: 400; }
-        .pricing-section .container .row-two .services__column .services__column__item-two .content .price {
-          display: flex;
-          padding-bottom: 20px; }
-          .pricing-section .container .row-two .services__column .services__column__item-two .content .price small {
-            font-size: 20px;
-            line-height: 1.13em;
-            font-weight: 500;
-            padding-top: 12px; }
-          .pricing-section .container .row-two .services__column .services__column__item-two .content .price h3 {
-            font-size: 20px; }
-            .pricing-section .container .row-two .services__column .services__column__item-two .content .price h3 span {
-              color: #040222;
-              font-size: 72px;
-              font-weight: 700; }
-        .pricing-section .container .row-two .services__column .services__column__item-two .content .custom-btn-one {
-          text-align: center;
-          display: block;
-          border: 1px solid #5227c7;
-          background: #5227c7;
-          color: #fff; }
-          .pricing-section .container .row-two .services__column .services__column__item-two .content .custom-btn-one:hover {
-            border-color: #3f1e98;
-            background: #3f1e98;
-            color: #fff; }
-        .pricing-section .container .row-two .services__column .services__column__item-two .content .lists {
-          margin-top: 20px; }
-          .pricing-section .container .row-two .services__column .services__column__item-two .content .lists ul li {
-            color: #040222;
-            font-weight: 400;
-            line-height: 1.5em;
-            margin-bottom: 12px;
-            position: relative;
-            padding-left: 25px; }
-            .pricing-section .container .row-two .services__column .services__column__item-two .content .lists ul li::before {
-              background-color: #5d21d2;
-              position: absolute;
-              content: "";
-              width: 8px;
-              height: 8px;
-              position: absolute;
-              top: 8px;
-              left: 0;
-              border-radius: 50%; }
-        .pricing-section .container .row-two .services__column .services__column__item-two a:hover {
-          color: #5227c7; }
-      .pricing-section .container .row-two .services__column .services__column__item-three {
-        background-color: #f7f3f2;
-        padding: 50px 40px;
-        text-align: left;
-        border-radius: 15px; }
-        .pricing-section .container .row-two .services__column .services__column__item-three .content h2 {
-          font-weight: 700;
-          line-height: 1.13em; }
-        .pricing-section .container .row-two .services__column .services__column__item-three .content p {
-          color: #242230;
-          font-weight: 400; }
-        .pricing-section .container .row-two .services__column .services__column__item-three .content .price {
-          display: flex;
-          padding-bottom: 20px; }
-          .pricing-section .container .row-two .services__column .services__column__item-three .content .price small {
-            font-size: 20px;
-            line-height: 1.13em;
-            font-weight: 500;
-            padding-top: 12px; }
-          .pricing-section .container .row-two .services__column .services__column__item-three .content .price h3 {
-            font-size: 20px; }
-            .pricing-section .container .row-two .services__column .services__column__item-three .content .price h3 span {
-              color: #040222;
-              font-size: 72px;
-              font-weight: 700; }
-        .pricing-section .container .row-two .services__column .services__column__item-three .content .custom-btn-one {
-          text-align: center;
-          display: block;
-          border: 1px solid #5227c7;
-          background: #5227c7;
-          color: #fff; }
-          .pricing-section .container .row-two .services__column .services__column__item-three .content .custom-btn-one:hover {
-            border-color: #3f1e98;
-            background: #3f1e98;
-            color: #fff; }
-        .pricing-section .container .row-two .services__column .services__column__item-three .content .lists {
-          margin-top: 20px; }
-          .pricing-section .container .row-two .services__column .services__column__item-three .content .lists ul li {
-            color: #040222;
-            font-weight: 400;
-            line-height: 1.5em;
-            margin-bottom: 12px;
-            position: relative;
-            padding-left: 25px; }
-            .pricing-section .container .row-two .services__column .services__column__item-three .content .lists ul li::before {
-              background-color: #5d21d2;
-              position: absolute;
-              content: "";
-              width: 8px;
-              height: 8px;
-              position: absolute;
-              top: 8px;
-              left: 0;
-              border-radius: 50%; }
-        .pricing-section .container .row-two .services__column .services__column__item-three a:hover {
-          color: #5227c7; }
-  .pricing-section .container .row-three {
-    padding-top: 100px;
-    justify-content: center; }
-    .pricing-section .container .row-three .our-clients {
-      position: relative; }
-      .pricing-section .container .row-three .our-clients .img-wrap {
-        position: absolute;
-        right: -680px;
-        max-width: 50%; }
-      .pricing-section .container .row-three .our-clients ul {
-        display: flex; }
-        .pricing-section .container .row-three .our-clients ul li {
-          padding: 0 20px; }
-          .pricing-section .container .row-three .our-clients ul li a img {
-            opacity: .3;
-            transition: .5s all ease; }
-            .pricing-section .container .row-three .our-clients ul li a img:hover {
-              opacity: 1; }
-
-.more-features {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-1.png); }
-  .more-features .img-container {
-    position: relative; }
-    .more-features .img-container .img-wrap-two {
-      position: absolute;
-      max-width: 7%;
-      left: 180px;
-      bottom: -700px; }
-  .more-features .container .row-one {
-    padding: 10px;
-    margin-bottom: 40px; }
-    .more-features .container .row-one .col-md-12 {
-      text-align: center; }
-      .more-features .container .row-one .col-md-12 h2 {
-        font-size: 36px;
-        line-height: 1.35;
-        font-weight: 700;
-        color: #040222;
-        font-style: normal;
-        margin: 20px 0; }
-      .more-features .container .row-one .col-md-12 p {
-        max-width: 700px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-        color: #242230;
-        font-style: normal;
-        margin: 0 auto; }
-  .more-features .container .row-two {
-    margin-left: -30px;
-    margin-right: -30px; }
-    .more-features .container .row-two .services__column {
-      position: relative;
-      padding-right: 20px;
-      padding-left: 20px; }
-      @media (max-width: 767px) {
-        .more-features .container .row-two .services__column {
-          margin-bottom: 50px; } }
-      .more-features .container .row-two .services__column .services__column__item-one {
-        background-color: #f7f4fd;
-        padding: 30px;
-        text-align: left;
-        border-radius: 15px; }
-        .more-features .container .row-two .services__column .services__column__item-one .content {
-          margin-bottom: 30px; }
-          .more-features .container .row-two .services__column .services__column__item-one .content .img-wrap {
-            margin-bottom: 20px; }
-            .more-features .container .row-two .services__column .services__column__item-one .content .img-wrap img {
-              max-width: 40%; }
-          .more-features .container .row-two .services__column .services__column__item-one .content h3 {
-            font-size: 18px;
-            line-height: 1.3;
-            font-weight: 700;
-            color: #040222;
-            font-style: normal; }
-          .more-features .container .row-two .services__column .services__column__item-one .content p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 26px;
-            color: #242230;
-            font-style: normal; }
-        .more-features .container .row-two .services__column .services__column__item-one a {
-          margin: 0 13px 13px 0; }
-        .more-features .container .row-two .services__column .services__column__item-one a:hover {
-          color: #5227c7; }
-      .more-features .container .row-two .services__column .services__column__item-two {
-        background-color: #fcf1ff;
-        padding: 30px;
-        text-align: left;
-        border-radius: 15px; }
-        .more-features .container .row-two .services__column .services__column__item-two .content {
-          margin-bottom: 30px; }
-          .more-features .container .row-two .services__column .services__column__item-two .content .img-wrap {
-            margin-bottom: 20px; }
-            .more-features .container .row-two .services__column .services__column__item-two .content .img-wrap img {
-              max-width: 40%; }
-          .more-features .container .row-two .services__column .services__column__item-two .content h3 {
-            font-size: 18px;
-            line-height: 1.3;
-            font-weight: 700;
-            color: #040222;
-            font-style: normal; }
-          .more-features .container .row-two .services__column .services__column__item-two .content p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 26px;
-            color: #242230;
-            font-style: normal; }
-        .more-features .container .row-two .services__column .services__column__item-two a {
-          margin: 0 13px 13px 0; }
-        .more-features .container .row-two .services__column .services__column__item-two a:hover {
-          color: #5227c7; }
-      .more-features .container .row-two .services__column .services__column__item-three {
-        background-color: #f7f4fd;
-        padding: 30px;
-        text-align: left;
-        border-radius: 15px; }
-        .more-features .container .row-two .services__column .services__column__item-three .content {
-          margin-bottom: 30px; }
-          .more-features .container .row-two .services__column .services__column__item-three .content .img-wrap {
-            margin-bottom: 20px; }
-            .more-features .container .row-two .services__column .services__column__item-three .content .img-wrap img {
-              max-width: 40%; }
-          .more-features .container .row-two .services__column .services__column__item-three .content h3 {
-            font-size: 18px;
-            line-height: 1.3;
-            font-weight: 700;
-            color: #040222;
-            font-style: normal; }
-          .more-features .container .row-two .services__column .services__column__item-three .content p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 26px;
-            color: #242230;
-            font-style: normal; }
-        .more-features .container .row-two .services__column .services__column__item-three a {
-          margin: 0 13px 13px 0; }
-        .more-features .container .row-two .services__column .services__column__item-three a:hover {
-          color: #5227c7; }
-      .more-features .container .row-two .services__column .services__column__item-four {
-        background-color: #f7f4fd;
-        padding: 30px;
-        text-align: left;
-        border-radius: 15px; }
-        .more-features .container .row-two .services__column .services__column__item-four .content {
-          margin-bottom: 30px; }
-          .more-features .container .row-two .services__column .services__column__item-four .content .img-wrap {
-            margin-bottom: 20px; }
-            .more-features .container .row-two .services__column .services__column__item-four .content .img-wrap img {
-              max-width: 40%; }
-          .more-features .container .row-two .services__column .services__column__item-four .content h3 {
-            font-size: 18px;
-            line-height: 1.3;
-            font-weight: 700;
-            color: #040222;
-            font-style: normal; }
-          .more-features .container .row-two .services__column .services__column__item-four .content p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 26px;
-            color: #242230;
-            font-style: normal; }
-        .more-features .container .row-two .services__column .services__column__item-four a {
-          margin: 0 13px 13px 0; }
-        .more-features .container .row-two .services__column .services__column__item-four a:hover {
-          color: #5227c7; }
-
-.last-section {
-  background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-2.png);
-  background-position: bottom center;
-  background-repeat: repeat;
-  background-size: cover;
-  position: relative; }
-  .last-section .img-wrap {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px; }
+  .portfolio-section .custom-shape-divider-top-1654898688 .shape-fill {
+    fill: #FFFFFF; }
+  .portfolio-section .company__bg {
     position: absolute;
-    max-width: 20%;
-    bottom: -86px;
-    right: 30px; }
-  .last-section .container .row .content {
-    padding: 100px 0;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto; }
-    .last-section .container .row .content h1 {
-      font-size: 48px;
-      line-height: 1.2;
+    bottom: 0; }
+    .portfolio-section .company__bg .img_wrap img {
+      width: 100vw; }
+  .portfolio-section .portfolio__content.two {
+    flex-direction: row-reverse; }
+  .portfolio-section .portfolio__content {
+    margin-bottom: 60px; }
+    .portfolio-section .portfolio__content .heading__area h5 {
+      margin-bottom: 15px; }
+    .portfolio-section .portfolio__content .heading__area h2 {
+      margin-bottom: 20px; }
+    .portfolio-section .portfolio__content .heading__area p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      font-weight: 400; }
+    .portfolio-section .portfolio__content .col-md-6 {
+      align-self: center; }
+    .portfolio-section .portfolio__content .cutom-tag h5 {
+      color: #FFFFFF; }
+    .portfolio-section .portfolio__content:last-child {
+      margin-bottom: 0; }
+    .portfolio-section .portfolio__content .portfolio__title {
+      font-size: 38px;
       font-weight: 700;
-      color: #040222;
-      font-style: normal;
-      padding-bottom: 60px; }
-    .last-section .container .row .content .custom-btn-one {
-      text-align: center;
-      border: 1px solid #5227c7;
-      background: #5227c7;
-      color: #fff; }
-      .last-section .container .row .content .custom-btn-one:hover {
-        border-color: #3f1e98;
-        background: #3f1e98;
-        color: #fff; }
+      color: #202020;
+      line-height: 45px;
+      text-transform: capitalize;
+      margin-bottom: 20px; }
+    .portfolio-section .portfolio__content .portfolio__paragraph {
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      font-weight: 400;
+      margin-bottom: 30px; }
+    .portfolio-section .portfolio__content ul li {
+      color: #FFFFFF;
+      line-height: 34px;
+      font-size: 16px; }
+      .portfolio-section .portfolio__content ul li span {
+        margin-right: 9px; }
+    .portfolio-section .portfolio__content .button-div {
+      margin-top: 50px; }
+      .portfolio-section .portfolio__content .button-div .custom-btn-three {
+        padding: 17px 37px;
+        font-size: 15px;
+        line-height: 23px; }
+
+.features-section {
+  padding: 120px 0; }
+  .features-section .box__row {
+    margin-bottom: -20px; }
+    .features-section .box__row .content {
+      box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 36px;
+      padding: 30px 15px 25px 30px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      min-height: 320px; }
+      .features-section .box__row .content .image__wrap {
+        width: 65px;
+        margin-bottom: 20px; }
+      .features-section .box__row .content h4 {
+        font-size: 18px;
+        line-height: 50px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #202020; }
+      .features-section .box__row .content p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #5C5C5C; }
 
 .footer {
-  background-color: #5d21d2;
-  padding: 100px 0; }
-  .footer .container .row .col-one .img-wrap {
-    margin-bottom: 20px; }
-    .footer .container .row .col-one .img-wrap a img {
-      max-width: 50%; }
-  .footer .container .row .col-one .address p {
-    margin-bottom: 20px;
+  padding-top: 120px;
+  background-color: #0D0D0D;
+  position: relative;
+  overflow: hidden; }
+  .footer .footer__bg {
+    position: absolute; }
+  .footer .column .footer_header h4 {
     font-size: 16px;
-    line-height: 27px;
-    color: #fff; }
-  .footer .container .row .col-one .phone {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 27px;
-    color: #fff; }
-  .footer .container .row .col-one .email {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 27px;
-    color: #fff; }
-  .footer .container .row .col-one .social-icons {
-    display: flex; }
-    .footer .container .row .col-one .social-icons a {
-      margin: 10px;
-      max-width: 20px; }
-      .footer .container .row .col-one .social-icons a:first-child {
-        margin-left: 0; }
-      .footer .container .row .col-one .social-icons a .fb {
-        max-width: 14px; }
-  .footer .container .row .col-md-2 h4 {
-    margin: 0 0 25px;
-    text-align: left;
-    color: #fff;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 1em;
-    letter-spacing: 0; }
-  .footer .container .row .col-md-2 ul li {
-    color: #fff;
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal; }
-  .footer .container .row .col-last form .email-input {
-    border-radius: 7px;
-    padding: 15px 20px;
-    border: 0;
-    margin-bottom: 20px;
-    max-width: 100%;
-    width: 100%;
-    box-shadow: none; }
-  .footer .container .row .col-last form .submit-btn {
-    display: block;
-    cursor: pointer;
-    width: 100%; }
+    line-height: 26px;
+    color: #FFFFFF;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 18px; }
+    .footer .column .footer_header h4::after {
+      content: '';
+      position: absolute;
+      width: 35px;
+      height: 3px;
+      background-color: #2CB7EA;
+      bottom: 0;
+      left: 0; }
+  .footer .column ul li {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 40px; }
+    .footer .column ul li span {
+      margin-right: 5px; }
+    .footer .column ul li .contact__number {
+      font-size: 25px;
+      line-height: 37px;
+      font-weight: 700; }
+    .footer .column ul li a {
+      color: #FFFFFF;
+      font-size: 15px;
+      line-height: 40px; }
+      .footer .column ul li a span {
+        margin-right: 5px; }
+    .footer .column ul li a:hover {
+      color: #2CB7EA; }
+  .footer .newsletter {
+    justify-content: center; }
+    .footer .newsletter h2 {
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-top: 20px;
+      margin-bottom: 10px; }
+    .footer .newsletter .form__wrap {
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      overflow: hidden; }
+      .footer .newsletter .form__wrap form input {
+        height: 100%;
+        padding: 20px 30px;
+        border: none;
+        overflow: hidden; }
+      .footer .newsletter .form__wrap form .custom_submit {
+        background-color: #2CB7EA;
+        color: #FFFFFF; }
+  .footer .copyright {
+    padding: 50px 0; }
+    .footer .copyright p {
+      color: #FFFFFF;
+      font-size: 15px;
+      line-height: 23px; }
+    .footer .copyright .footer__icons {
+      color: #FFFFFF;
+      text-align: center; }
+      .footer .copyright .footer__icons span {
+        padding: 0 15px; }
+    .footer .copyright .copyright-link p a {
+      color: #2CB7EA; }
+    .footer .copyright .copyright-link p:hover {
+      color: #FFF; }
 
 #slide {
   position: absolute;

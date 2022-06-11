@@ -348,130 +348,7 @@ html body .nav-bar #custom-navbar {
 
 }
 
-// Overview
-
-// .overview {
-//     background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-0.jpg);
-//     background-position: bottom center;
-//     background-size: cover;
-//     padding: 130px 0;
-//     position: relative;
-
-//     .img-wrap {
-//         max-width: 7%;
-//         position: absolute;
-//         left: 50px;
-//         top: 20px;
-//     }
-
-//     .container {
-//         .row {
-//             .overview__col-one {
-//                 background-color: #eee8ff;
-//                 border-radius: 15px;
-//                 height: 500px;
-//                 padding-top: 25px;
-
-//                 .overview__img-container {
-//                     position: relative;
-
-//                     .wave-one {
-//                         max-width: 40%;
-//                         position: absolute;
-//                         left: 20%;
-//                         top: 315px;
-//                         opacity: 40%;
-                    
-//                     }
-
-//                     .wave-two {
-//                         max-width: 40%;
-//                         position: absolute;
-//                         left: 40%;
-//                         top: 55px;
-//                         opacity: 40%;
-                        
-//                     }
-
-//                     .img-wrap__one {
-//                         max-width: 60%;
-//                         position: absolute;
-                        
-//                     }
-
-//                     .img-wrap__two {
-//                         position: absolute;
-//                         max-width: 60%;
-//                         top: 80px;
-//                         left: 40%;
-//                     }
-
-//                 }
-//             }
-
-//             .overview__col-two {
-//                 padding: 10px 0 10px 100px;
-
-//                 h1 {
-//                     font-size: 36px;
-//                     line-height: 1.35;
-//                     font-weight: 600;
-//                     color: #040222;
-//                     font-style: normal;
-//                     margin-top: 20px;
-//                     margin-bottom: 10px;
-//                 }
-
-//                 p {
-//                     font-weight: 400;
-//                     font-size: 16px;
-//                     line-height: 24px;
-//                     color: #242230;
-//                     font-style: normal;
-//                     padding-bottom: 20px;
-//                 }
-
-//                 .custom-hr {
-//                    border-color: #4546db1c; 
-                   
-//                 }
-
-//                 .flex-container {
-//                     display: flex;
-//                     flex-wrap: wrap;
-//                     .item-wrap {
-//                         width: 45%;
-//                         display: flex;
-//                         justify-content: flex-start;
-//                         align-items: center;
-
-//                         margin: 20px 20px 0 0;
-//                         background-color: #fff;
-//                         transition: background .3s;
-//                         border-radius: 15px 15px 15px 15px;
-//                         box-shadow: 0 0 10px 0 rgba(91, 63, 239 , 0.20);
-//                         padding: 10px;
-
-//                         img {
-//                             margin-right: 32px;
-//                         }
-
-//                         h5 {
-//                             text-align: left;
-//                             font-family: nunito sans,Sans-serif;
-//                             font-size: 18px;
-//                             font-weight: 700;
-//                             line-height: 2.7em;
-//                             margin: 0;
-//                         }
-//                     }
-//                 }
-
-//             }
-//         }
-//     }
-// }
-
+ 
 
 // Services
 
@@ -571,917 +448,304 @@ html body .nav-bar #custom-navbar {
     }
 }
 
+// Portfolio section
 
-// features
-
-.features {
-    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-2.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 0;
-    padding-bottom: 120px;
+.portfolio-section {
     position: relative;
+    padding: 120px 0;
+    overflow: hidden;
+    background-color: #2CB7EA;
 
-    .img-wrap {
+
+    .container {
+        padding: 0;
+    }
+
+    .custom-shape-divider-top-1654898688 {
         position: absolute;
-        bottom: 35px;
-        right: 10%;
-        max-width: 8%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
     }
-
-    .container {
-        .row {
-            .features-col-one {
-                padding: 75px 100px 75px 0;
-
-                h1 {
-                    margin: 20px 0;
-                    font-size: 36px;
-                    line-height: 1.35;
-                    font-weight: 600;
-                    color: #040222;
-                    font-style: normal;
-                }
-
-                p {
-                    font-weight: 300;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #242230;
-                    font-style: normal;
-                }
-
-                .custom-btn-arrow {
-                    padding: 0 0 3px 0;
-                    margin-left: 0;
-
-                    &:hover {
-                        color: #5227c7;
-                    }
-                }
-            }
-
-            .features-col-two {
-                background-color: #f1f3ff;
-                border-radius: 15px;
-                position: relative;
-                height: 460px;
-
-                .img-wrap {
-                    position: absolute;
-                    max-width: 40%;
-                    opacity: .2;
-                    bottom: 45px;
-                    left: 18%;
-                }
-                
-                .image-container {
-                    .img-wrap-one {
-                        position: absolute;
-                        left: 0;
-                    }
-
-                    .img-wrap-two {
-                        max-width: 80%;
-                        position: absolute;
-                        top: 140px;
-                        left: 225px;
-                    }
-
-                }
-
-            }
-        }
-    }
-}
-
-
-// Testimonial
-
-.testimonial {
-    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-31.png);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 120px;
-    .container {
-        .row {
-            .testimonial__content {
-                background-color: #f7f4fd;
-                padding: 70px 70px 40px;
-                border-radius: 15px;
-                display: flex;
-
-                .img-wrap {
-                    margin-right: 50px;
-                }
-
-                .text-content {
-                    h2 {
-                        font-size: 36px;
-                        line-height: 1.35;
-                        font-weight: 600;
-                        color: #040222;
-                        font-style: normal;
-                        margin-bottom: 30px;
-                    }
-
-                    h5 {
-                        font-size: 18px;
-                        line-height: 1.3;
-                        font-weight: 600;
-                        color: #040222;
-                        font-style: normal;
-                    }
-
-                    p {
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 26px;
-                        color: #242230;
-                        font-style: normal;
-                    }
-                }
-
-                
-            }
-        }
-    }
-}
-
-
-// Pricing
-
-.pricing-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-color: #5d21d2;
-    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/banner-clean.jpg);
-    background-position: top center;
-    background-size: cover;
-
-
-    .img-container {
-        position: relative;
     
-        .img-wrap-two {
-            position: absolute;
-            max-width: 7%;
-            left: 180px;
-            top: 0;
-        }
-    }
-
-    .container {
-        .row-one {
-            padding: 10px;
-            margin-bottom: 40px;
-
-            .col-md-12 {
-                text-align: center;
-
-                .cutom-tag {
-                    background-color: #6e38d8;
-                    
-                    h5 {
-                        text-align: center;
-                        color: #fff;
-                        font-size: 14px;
-                        text-transform: uppercase;
-                        letter-spacing: .5px;
-                    }
-                }
-
-                h2 {
-                    font-size: 36px;
-                    line-height: 1.35;
-                    font-weight: 700;
-                    color: #fff;
-                    font-style: normal;
-                    margin: 20px 0;
-                }
-
-                p {
-                    max-width: 700px;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #fff;
-                    font-style: normal;
-                    margin: 0 auto;
-                }
-            }
-
-
-        }
-
-        .row-two {
-            margin-left: -30px;
-            margin-right: -30px;
-            .services__column {
-                position: relative;
-                padding-right: 20px;
-                padding-left: 20px;
-                
-            
-
-                @media (max-width: 767px) {
-                    margin-bottom: 50px;
-                }
-                .services__column__item-one {
-                    background-color: #f7f3f2;
-                    padding: 50px 40px;
-                    text-align: left;
-                    border-radius: 15px;      
-
-                    .content { 
-
-                        h2 {
-                            font-weight: 700;
-                            line-height: 1.13em;
-                        }
-
-                        p {
-                            color: #242230;
-                            font-weight: 400;
-                        }
-
-                        .price {
-                            display: flex;
-                            padding-bottom: 20px;
-
-                            small {
-                                font-size: 20px;
-                                line-height: 1.13em;
-                                font-weight: 500;
-                                padding-top: 12px;
-                            }
-
-                            h3 {
-                                font-size: 20px;
-                                span {
-                                    color: #040222;
-                                    font-size: 72px;
-                                    font-weight: 700;
-                                }
-                            }
-                        }
-
-                        .custom-btn-one {
-                            text-align: center;
-                            display: block;
-                            border: 1px solid #5227c7;
-                            background: #5227c7;
-                            color: #fff;
-
-                            &:hover {
-                                border-color: #3f1e98;
-                                background: #3f1e98;
-                                color: #fff;
-                            }
-                        }
-
-                        .lists {
-                            margin-top: 20px;
-                            ul {
-                                li {
-                                    color: #040222;
-                                    font-weight: 400;
-                                    line-height: 1.5em;
-                                    margin-bottom: 12px;
-                                    position: relative;
-                                    padding-left: 25px;
-
-                                    &::before {
-                                        background-color: #5d21d2;
-                                        position: absolute;
-                                        content: "";
-                                        width: 8px;
-                                        height: 8px;
-                                        position: absolute;
-                                        top: 8px;
-                                        left: 0;
-                                        border-radius: 50%;
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    
-                    a:hover {
-                        color: #5227c7;
-                    }
-                    
-                }
-
-                .services__column__item-two {
-                    background-color: #f7f3f2;
-                    padding: 50px 40px;
-                    text-align: left;
-                    border-radius: 15px;
-                    
-                    .content { 
-
-                        h2 {
-                            font-weight: 700;
-                            line-height: 1.13em;
-                        }
-
-                        p {
-                            color: #242230;
-                            font-weight: 400;
-                        }
-
-                        .price {
-                            display: flex;
-                            padding-bottom: 20px;
-
-                            small {
-                                font-size: 20px;
-                                line-height: 1.13em;
-                                font-weight: 500;
-                                padding-top: 12px;
-                            }
-
-                            h3 {
-                                font-size: 20px;
-                                span {
-                                    color: #040222;
-                                    font-size: 72px;
-                                    font-weight: 700;
-                                }
-                            }
-                        }
-
-                        .custom-btn-one {
-                            text-align: center;
-                            display: block;
-                            border: 1px solid #5227c7;
-                            background: #5227c7;
-                            color: #fff;
-
-                            &:hover {
-                                border-color: #3f1e98;
-                                background: #3f1e98;
-                                color: #fff;
-                            }
-                        }
-
-                        .lists {
-                            margin-top: 20px;
-                            ul {
-                                li {
-                                    color: #040222;
-                                    font-weight: 400;
-                                    line-height: 1.5em;
-                                    margin-bottom: 12px;
-                                    position: relative;
-                                    padding-left: 25px;
-
-                                    &::before {
-                                        background-color: #5d21d2;
-                                        position: absolute;
-                                        content: "";
-                                        width: 8px;
-                                        height: 8px;
-                                        position: absolute;
-                                        top: 8px;
-                                        left: 0;
-                                        border-radius: 50%;
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-
-                    a:hover {
-                        color: #5227c7;
-                    }
-
-                }
-
-                .services__column__item-three {
-                    background-color: #f7f3f2;
-                    padding: 50px 40px;
-                    text-align: left;
-                    border-radius: 15px;
-                    
-                    .content { 
-
-                        h2 {
-                            font-weight: 700;
-                            line-height: 1.13em;
-                        }
-
-                        p {
-                            color: #242230;
-                            font-weight: 400;
-                        }
-
-                        .price {
-                            display: flex;
-                            padding-bottom: 20px;
-
-                            small {
-                                font-size: 20px;
-                                line-height: 1.13em;
-                                font-weight: 500;
-                                padding-top: 12px;
-                            }
-
-                            h3 {
-                                font-size: 20px;
-                                span {
-                                    color: #040222;
-                                    font-size: 72px;
-                                    font-weight: 700;
-                                }
-                            }
-                        }
-
-                        .custom-btn-one {
-                            text-align: center;
-                            display: block;
-                            border: 1px solid #5227c7;
-                            background: #5227c7;
-                            color: #fff;
-
-                            &:hover {
-                                border-color: #3f1e98;
-                                background: #3f1e98;
-                                color: #fff;
-                            }
-                        }
-
-                        .lists {
-                            margin-top: 20px;
-                            ul {
-                                li {
-                                    color: #040222;
-                                    font-weight: 400;
-                                    line-height: 1.5em;
-                                    margin-bottom: 12px;
-                                    position: relative;
-                                    padding-left: 25px;
-
-                                    &::before {
-                                        background-color: #5d21d2;
-                                        position: absolute;
-                                        content: "";
-                                        width: 8px;
-                                        height: 8px;
-                                        position: absolute;
-                                        top: 8px;
-                                        left: 0;
-                                        border-radius: 50%;
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-
-                    a:hover {
-                        color: #5227c7;
-                    }
-
-                }
-                
-            }
-        }
-
-        .row-three {
-            padding-top: 100px;
-            justify-content: center;
-            .our-clients {
-                position: relative;
-
-                .img-wrap {
-                    position: absolute;
-                    right: -680px;
-                    max-width: 50%;
-                }
-
-                ul {
-                    display: flex;
-                    li {
-                        padding: 0 20px;
-                        a {
-                            img {
-                                opacity: .3;
-                                transition: .5s all ease;
-
-                                &:hover {
-                                    opacity: 1;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// More features
-
-.more-features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-1.png);
-
-
-    .img-container {
+    .custom-shape-divider-top-1654898688 svg {
         position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
     
-        .img-wrap-two {
-            position: absolute;
-            max-width: 7%;
-            left: 180px;
-            bottom: -700px;
-        }
+    .custom-shape-divider-top-1654898688 .shape-fill {
+        fill: #FFFFFF;
     }
 
-    .container {
-        .row-one {
-            padding: 10px;
-            margin-bottom: 40px;
-
-            .col-md-12 {
-                text-align: center;
-
-                h2 {
-                    font-size: 36px;
-                    line-height: 1.35;
-                    font-weight: 700;
-                    color: #040222;
-                    font-style: normal;
-                    margin: 20px 0;
-                }
-
-                p {
-                    max-width: 700px;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #242230;
-                    font-style: normal;
-                    margin: 0 auto;
-                }
-            }
-
-
-        }
-
-        .row-two {
-            margin-left: -30px;
-            margin-right: -30px;
-            .services__column {
-                position: relative;
-                padding-right: 20px;
-                padding-left: 20px;
-                
-            
-
-                @media (max-width: 767px) {
-                    margin-bottom: 50px;
-                }
-                .services__column__item-one {
-                    background-color: #f7f4fd;
-                    padding: 30px;
-                    text-align: left;
-                    border-radius: 15px;
-                
-                    .content { 
-                        margin-bottom: 30px;
-
-                        .img-wrap {
-                            margin-bottom: 20px;
-                            img {
-                                max-width: 40%;
-                            }
-                        }
-
-                        h3 {
-                            font-size: 18px;
-                            line-height: 1.3;
-                            font-weight: 700;
-                            color: #040222;
-                            font-style: normal;
-                        }
-
-                        p {
-                            font-weight: 300;
-                            font-size: 18px;
-                            line-height: 26px;
-                            color: #242230;
-                            font-style: normal;
-                        }
-
-                    }
-
-                    a {
-                        margin: 0 13px 13px 0;
-                    }
-                    
-                    a:hover {
-                        color: #5227c7;
-                    }
-                    
-                }
-
-                .services__column__item-two {
-                    background-color: #fcf1ff;
-                    padding: 30px;
-                    text-align: left;
-                    border-radius: 15px;
-                   
-                    .content { 
-                        margin-bottom: 30px;
-
-                        .img-wrap {
-                            margin-bottom: 20px;
-                            img {
-                                max-width: 40%;
-                            }
-                        }
-
-                        h3 {
-                            font-size: 18px;
-                            line-height: 1.3;
-                            font-weight: 700;
-                            color: #040222;
-                            font-style: normal;
-                        }
-
-                        p {
-                            font-weight: 300;
-                            font-size: 18px;
-                            line-height: 26px;
-                            color: #242230;
-                            font-style: normal;
-                        }
-                    }
-
-                    a {
-                        margin: 0 13px 13px 0;
-                    }
-
-                    a:hover {
-                        color: #5227c7;
-                    }
-
-                }
-
-                .services__column__item-three {
-                    background-color: #f7f4fd;
-                    padding: 30px;
-                    text-align: left;
-                    border-radius: 15px;
-                   
-                    .content { 
-                        margin-bottom: 30px;
-
-                        .img-wrap {
-                            margin-bottom: 20px;
-                            img {
-                                max-width: 40%;
-                            }
-                        }
-
-                        h3 {
-                            font-size: 18px;
-                            line-height: 1.3;
-                            font-weight: 700;
-                            color: #040222;
-                            font-style: normal;
-                        }
-
-                        p {
-                            font-weight: 300;
-                            font-size: 18px;
-                            line-height: 26px;
-                            color: #242230;
-                            font-style: normal;
-                        }
-                    }
-
-                    a {
-                        margin: 0 13px 13px 0;
-                    }
-
-                    a:hover {
-                        color: #5227c7;
-                    }
-
-                }
-
-                .services__column__item-four {
-                    background-color: #f7f4fd;
-                    padding: 30px;
-                    text-align: left;
-                    border-radius: 15px;
-                   
-                    .content { 
-                        margin-bottom: 30px;
-
-                        .img-wrap {
-                            margin-bottom: 20px;
-                            img {
-                                max-width: 40%;
-                            }
-                        }
-
-                        h3 {
-                            font-size: 18px;
-                            line-height: 1.3;
-                            font-weight: 700;
-                            color: #040222;
-                            font-style: normal;
-                        }
-
-                        p {
-                            font-weight: 300;
-                            font-size: 18px;
-                            line-height: 26px;
-                            color: #242230;
-                            font-style: normal;
-                        }
-                    }
-
-                    a {
-                        margin: 0 13px 13px 0;
-                    }
-
-                    a:hover {
-                        color: #5227c7;
-                    }
-
-                }
-                
-            }
-        }
-    }
-}
-
-// Last section
-
-.last-section {
-    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-2.png);
-    background-position: bottom center;
-    background-repeat: repeat;
-    background-size: cover;
-
-    position: relative;
-
-    .img-wrap {
+    .company__bg {
         position: absolute;
-        max-width: 20%;
-        bottom: -86px;
-        right: 30px;
-    }
-
-    .container {
-        .row {
-            .content {
-                padding: 100px 0;
-                text-align: center;
-                max-width: 700px;
-                margin: 0 auto;
-
-                h1 {
-                    font-size: 48px;
-                    line-height: 1.2;
-                    font-weight: 700;
-                    color: #040222;
-                    font-style: normal;
-                    padding-bottom: 60px;
-                }
-
-                .custom-btn-one {
-                    text-align: center;
-                    border: 1px solid #5227c7;
-                    background: #5227c7;
-                    color: #fff;
-
-                    &:hover {
-                        border-color: #3f1e98;
-                        background: #3f1e98;
-                        color: #fff;
-                    }
-                }
+        bottom: 0;
+        .img_wrap {
+            img {
+                width: 100vw;
             }
         }
     }
+
+    .portfolio__content.two {
+        flex-direction: row-reverse;
+    }
+
+    .portfolio__content {
+        margin-bottom: 60px;
+
+        .heading__area {
+            h5 {
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                font-weight: 400;
+            }
+        }
+
+        .col-md-6 {
+            align-self: center;
+        }
+
+        .cutom-tag h5 {
+            color: #FFFFFF;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .portfolio__title {
+            font-size: 38px;
+            font-weight: 700;
+            color: #202020;
+            line-height: 45px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+    
+        .portfolio__paragraph {
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            li {
+                color: #FFFFFF;
+                line-height: 34px;
+                font-size: 16px;
+                span {
+                    margin-right: 9px;
+                }
+            }
+        }
+
+        .button-div {
+            margin-top: 50px;
+            .custom-btn-three {
+                padding: 17px 37px;
+                font-size: 15px;
+                line-height: 23px;
+            }
+        }
+        
+    }
+
+    
 }
+
+
+// Features section
+.features-section {
+    padding: 120px 0;    
+
+    .box__row {
+        margin-bottom: -20px;
+        .content {
+            box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 36px;
+            padding: 30px 15px 25px 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+
+            min-height: 320px;
+
+            .image__wrap {
+                width: 65px;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                font-size: 18px;
+                line-height: 50px;
+                font-weight: 600;
+                text-transform: capitalize;
+                color: #202020;
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 22px;
+                color: #5C5C5C;
+            }
+
+        }
+    }
+}
+
 
 
 // Footer
 
 .footer {
-    background-color: #5d21d2;
-    padding: 100px 0;
-    .container {
-        .row {
-            .col-one {
-                
-                .img-wrap {
-                    margin-bottom: 20px;
-                    a {
-                        img {
-                            max-width: 50%;
-                        }
-                    }
-                }
+   padding-top: 120px;
+   background-color: #0D0D0D;
+   position: relative;
+   overflow: hidden;
 
-                .address {
-                    p {
-                        margin-bottom: 20px;
-                        font-size: 16px;
-                        line-height: 27px;
-                        color: #fff;
-                    } 
-                }
+   .footer__bg {
+    position: absolute;
+   }
 
-                .phone {
-                    margin-bottom: 20px;
-                    font-size: 16px;
-                    line-height: 27px;
-                    color: #fff;
-                }
+   .column {
 
-                .email {
-                    margin-bottom: 20px;
-                    font-size: 16px;
-                    line-height: 27px;
-                    color: #fff;
-                }
+    .footer_header {
+        h4 {
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 18px;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 35px;
+                height: 3px;
+                background-color: #2CB7EA;
+                bottom: 0;
+                left: 0;
+            }
+        }
 
-                .social-icons {
-                    display: flex;
+    }
 
-                    a {
-                        margin: 10px;
-                        max-width: 20px;
+    ul {
+        li {
+           
+            color: #FFFFFF;
+            font-size: 15px;
+            line-height: 40px;
 
-                        &:first-child {
-                            margin-left: 0;
-                        }
+            span {
+                margin-right: 5px;
+            }
 
-                        .fb {
-                            max-width: 14px;
-                        }
-                    }
+            .contact__number {
+                font-size: 25px;
+                line-height: 37px;
+                font-weight: 700;
+            }
+
+            a {
+                color: #FFFFFF;
+                font-size: 15px;
+                line-height: 40px;
+    
+                span {
+                    margin-right: 5px;
                 }
             }
 
-            .col-md-2 {
-                h4 {
-                    margin: 0 0 25px;
-                    text-align: left;
-                    color: #fff;
-                    font-size: 22px;
-                    font-weight: 500;
-                    line-height: 1em;
-                    letter-spacing: 0;
-                }
-
-                ul {
-
-                    li {
-                        color: #fff;
-                        margin-bottom: 20px;
-                        font-weight: 400;
-                        font-size: 16px;
-                        font-style: normal;
-                    }
-                }
+            a:hover {
+                color: #2CB7EA;
             }
+        }
 
-            .col-last {
-                form {
-                    .email-input {
-                        border-radius: 7px;
-                        padding: 15px 20px;
-                        border: 0;
-                        margin-bottom: 20px;
-                        max-width: 100%;
-                        width: 100%;
-                        box-shadow: none;
-                    }
 
-                    .submit-btn {
-                        display: block;
-                        cursor: pointer;
-                        width: 100%
-                    }
-                }
+    }
+   }
+
+   .newsletter {
+
+    h2 {
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    justify-content: center;
+
+    .form__wrap {
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        overflow: hidden;
+        form {
+            input {
+                height: 100%;
+                padding: 20px 30px;
+                border: none;
+                overflow: hidden;
+            }
+    
+            .custom_submit {
+                background-color: #2CB7EA;
+                color: #FFFFFF;
             }
         }
     }
+    
+   }
+
+   .copyright {
+    padding: 50px 0;
+
+    p {
+        color: #FFFFFF;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .footer__icons {
+        color: #FFFFFF;
+        text-align: center;
+
+        span {
+            padding: 0 15px;
+        }
+    }
+
+    .copyright-link {
+        p {
+            a {
+                color: #2CB7EA;
+            }
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+   }
 }
 
 

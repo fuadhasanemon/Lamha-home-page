@@ -1,81 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="assets/images/static/alert-icon.png" />
-    <meta name="theme-color" content="#4054B2">
+    <meta name="theme-color" content="#4054B2" />
     <title>Lamha</title>
     <!--==============css links start==============-->
-    <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/lib/slick_slider/slick.min.css">
-    <link rel="stylesheet" href="assets/lib/light_gallery/lightgallery.css">
-    <link rel="stylesheet" href="assets/lib/layer_slider/layerslider.css">
-    <link rel="stylesheet" href="assets/lib/nice_select/nice-select.css">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/lib/slick_slider/slick.min.css" />
+    <link rel="stylesheet" href="assets/lib/light_gallery/lightgallery.css" />
+    <link rel="stylesheet" href="assets/lib/layer_slider/layerslider.css" />
+    <link rel="stylesheet" href="assets/lib/nice_select/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
     <!--==============css links end==============-->
 
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google fonts -->
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- navbar menu start -->
 
     <section class="nav-bar">
-        <nav id="custom-navbar" class="navbar navbar-expand-md custom-bg">
-            <div class="container p0">
+      <nav id="custom-navbar" class="navbar navbar-expand-md custom-bg">
+        <div class="container p0">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/static/logo.png" alt="" />
+          </a>
 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link active" href="#"
+                  >Price <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Platform Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
 
-                <a class="navbar-brand" href="#"> <img
-                        src="assets/images/static/logo.png" alt=""> </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="#">Price <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Platform Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="country">
-                    <div class="country__code">
-                        <div class="img_wrap">
-                            <img src="assets/images/static/flag.png" alt="">
-                            <span>EN <img src="assets/images/static/arrow_down.png" alt=""></span>
-                        </div>
-                    </div>
-                           
-                </div>
-
-                <a class="custom-btn-one" href="">Sign In</a>
-                <a class="custom-btn-two" href="">Create store</a>
-
-
-
+          <div class="country">
+            <div class="country__code">
+              <div class="img_wrap">
+                <img src="assets/images/static/flag.png" alt="" />
+                <span
+                  >EN <img src="assets/images/static/arrow_down.png" alt=""
+                /></span>
+              </div>
             </div>
-        </nav>
+          </div>
 
+          <a class="custom-btn-one" href="">Sign In</a>
+          <a class="custom-btn-two" href="">Create store</a>
+        </div>
+      </nav>
     </section>
 
     <!-- navbar menu end -->
@@ -83,39 +94,40 @@
     <!-- Banner section start -->
 
     <section class="home-banner loader">
-        <img class=" modify-img " data-image-small="assets/images/static/Banner.png"
-            data-image-large="assets/images/static/Banner.png"
-            data-image-standard="assets/images/static/Banner.png" data-src=""
-            src="assets/images/static/blur.jpg" alt="">
+      <img
+        class="modify-img"
+        data-image-small="assets/images/static/Banner.png"
+        data-image-large="assets/images/static/Banner.png"
+        data-image-standard="assets/images/static/Banner.png"
+        data-src=""
+        src="assets/images/static/blur.jpg"
+        alt=""
+      />
 
+      <div class="container">
+        <div class="row hero-row">
+          <div class="col-md-8 p0">
+            <div class="content mt-5">
+              <h3>All The Tools</h3>
 
-        <div class="container">
-            <div class="row hero-row">
-                <div class="col-md-8 p0">
+              <h2>You Need To</h2>
 
-                    <div class="content mt-5">
-                        <h3>All The Tools</h3>
+              <h1>Build A Successful Store...</h1>
 
-                        <h2>You Need To</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent suscipit tempus purus. Donec quis ipsum non felis
+                dapibus finibus. Proin pulvinar odio sed elit
+              </p>
 
-                        <h1>Build A Successful Store...</h1>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit tempus purus. 
-                            Donec quis ipsum non felis dapibus  finibus. Proin pulvinar odio sed elit
-                        </p>
-
-                        <div class="button-div mt-4">
-                            <a href="" class="custom-btn-three">get started</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-4 hero-img p0">
-
-                </div>
+              <div class="button-div mt-4">
+                <a href="" class="custom-btn-three">get started</a>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 hero-img p0"></div>
         </div>
-
+      </div>
     </section>
 
     <!-- Banner section end -->
@@ -192,14 +204,12 @@
 
     </section> -->
 
-
     <!-- Over view section -->
 
     <!-- Service section start -->
 
     <section class="services">
-
-        <!-- <div class="img-container">
+      <!-- <div class="img-container">
             <div class="img-wrap">
                 <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-12.png" alt="">
             </div>
@@ -209,542 +219,521 @@
             </div>
         </div> -->
 
-        <div class="container">
-            <div class="row row-one">
-
-                <div class="col-md-12 heading__area">
-                    <div class="cutom-tag">
-                        <h5>Recommended For You</h5>
-                    </div>
-    
-                    <h2>Bring Your Business Online</h2>
-    
-                    <p>
-                        Fusce posuere ac enim non ornare. Morbi lacus felis, laoreet a nunc et, volutpat tincidunt velit. Suspendi sseaugue dolo potenti.
-                    </p>
-
-                </div>
-
+      <div class="container">
+        <div class="row row-one">
+          <div class="col-md-12 heading__area">
+            <div class="cutom-tag">
+              <h5>Recommended For You</h5>
             </div>
 
-            <div class="row row-two slider__init">
+            <h2>Bring Your Business Online</h2>
 
-                    <div class=" services__column">
-                        <div class="services__column__item m3">
-                            <div class="content">
-                                <div class="img-wrap m3">
-                                    <img src="assets/images/static/web-1.png" alt="">
-                                </div>
-    
-                                <h4>Food & Drink</h4>
-                                <h3>Alfred</h3>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-    
-                    <div class=" services__column">
-                        <div class="services__column__item m3">
-                            <div class="content">
-                                <div class="img-wrap m3">
-                                    <img src="assets/images/static/web-2.png" alt="">
-                                </div>
-    
-                                <h4>Food & Drink</h4>
-                                <h3>Alfred</h3>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-    
-                    <div class=" services__column">
-                        <div class="services__column__item m3">
-                            <div class="content">
-                                <div class="img-wrap m3">
-                                    <img src="assets/images/static/web-3.png" alt="">
-                                </div>
-    
-                                <h4>Food & Drink</h4>
-                                <h3>Alfred</h3>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-
-                    <div class=" services__column">
-                        <div class="services__column__item m3">
-                            <div class="content">
-                                <div class="img-wrap m3">
-                                    <img src="assets/images/static/web-3.png" alt="">
-                                </div>
-    
-                                <h4>Food & Drink</h4>
-                                <h3>Alfred</h3>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-
-            </div>
-
+            <p>
+              Fusce posuere ac enim non ornare. Morbi lacus felis, laoreet a
+              nunc et, volutpat tincidunt velit. Suspendi sseaugue dolo potenti.
+            </p>
+          </div>
         </div>
 
+        <div class="row row-two slider__init">
+          <div class="services__column">
+            <div class="services__column__item m3">
+              <div class="content">
+                <div class="img-wrap m3">
+                  <img src="assets/images/static/web-1.png" alt="" />
+                </div>
+
+                <h4>Food & Drink</h4>
+                <h3>Alfred</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__column">
+            <div class="services__column__item m3">
+              <div class="content">
+                <div class="img-wrap m3">
+                  <img src="assets/images/static/web-2.png" alt="" />
+                </div>
+
+                <h4>Food & Drink</h4>
+                <h3>Alfred</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__column">
+            <div class="services__column__item m3">
+              <div class="content">
+                <div class="img-wrap m3">
+                  <img src="assets/images/static/web-3.png" alt="" />
+                </div>
+
+                <h4>Food & Drink</h4>
+                <h3>Alfred</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__column">
+            <div class="services__column__item m3">
+              <div class="content">
+                <div class="img-wrap m3">
+                  <img src="assets/images/static/web-3.png" alt="" />
+                </div>
+
+                <h4>Food & Drink</h4>
+                <h3>Alfred</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Service section end -->
 
-    <!-- features section -->
+    <!-- Portfolio section -->
 
-    <section class="features">
-
-        <div class="img-wrap">
-            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-12.png" alt="">
+    <section class="portfolio-section">
+      <div class="custom-shape-divider-top-1654898688">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="company__bg">
+        <div class="img_wrap">
+          <img src="assets/images/static/bg.png" alt="" />
         </div>
+      </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 features-col-one">
-
-                    <div class="cutom-tag">
-                        <h5>Additional features</h5>
-                    </div>
-
-                    <h1>Track your result with Premium Access Feature</h1>
-
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem eius modi.</p>
-
-                    <a class="custom-btn-arrow" href="">Discover more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="col-md-6 features-col-two">
-
-                    <div class="img-wrap">
-                        <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Group2-1.png" alt="">
-                    </div>
-
-                    <div class="image-container">
-                        <div class="img-wrap-one">
-                            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-8.png" alt="">
-
-                        </div>
-
-                        <div class="img-wrap-two">
-                            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-7.png" alt="">
-
-                        </div>
-                    </div>
-
-                </div>
+      <div class="container">
+        <div class="row portfolio__content mb-5">
+          <div class="col-md-12 heading__area text-center">
+            <div class="cutom-tag">
+              <h5>What Do You Want</h5>
             </div>
+
+            <h2>To Add To Your Website?</h2>
+
+            <p>
+              Fusce posuere ac enim non ornare. Morbi lacus felis, laoreet a
+              nunc et, volutpat tincidunt velit. Suspendi sseaugue dolo potenti.
+            </p>
+          </div>
         </div>
+
+        <div class="row portfolio__content one">
+          <div class="col-md-6">
+            <h3 class="portfolio__title">
+              Sed Vitae Elit Dui. Nunc Sit Amet Nibh Quis Leo Porttitor
+            </h3>
+
+            <p class="portfolio__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              convallis tincidunt ipsum, at vehicula nulla
+            </p>
+
+            <ul>
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Lorem ipsum dolor sit amet, conr adipiscing elit.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Lorem ipsum dolor sit amet, conr adipiscing elit.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Donec lacinia risus et mauris malesuada accumsan.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Nunc eleifend sem non vehicula pharetra.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Etiam pellentesque urna vel eleifend feugiat.
+              </li>
+            </ul>
+
+            <div class="button-div">
+              <a href="" class="custom-btn-three">Know more</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image-wrap">
+              <img src="assets/images/static/portfolio-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row portfolio__content two">
+          <div class="col-md-6">
+            <h3 class="portfolio__title">
+              Sed Vitae Elit Dui. Nunc Sit Amet Nibh Quis Leo Porttitor
+            </h3>
+
+            <p class="portfolio__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              convallis tincidunt ipsum, at vehicula nulla
+            </p>
+
+            <ul>
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Lorem ipsum dolor sit amet, conr adipiscing elit.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Lorem ipsum dolor sit amet, conr adipiscing elit.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Donec lacinia risus et mauris malesuada accumsan.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Nunc eleifend sem non vehicula pharetra.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Etiam pellentesque urna vel eleifend feugiat.
+              </li>
+            </ul>
+
+            <div class="button-div">
+              <a href="" class="custom-btn-three">Know more</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image-wrap">
+              <img src="assets/images/static/portfolio-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row portfolio__content three">
+          <div class="col-md-6">
+            <h3 class="portfolio__title">
+              Sed Vitae Elit Dui. Nunc Sit Amet Nibh Quis Leo Porttitor
+            </h3>
+
+            <p class="portfolio__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              convallis tincidunt ipsum, at vehicula nulla
+            </p>
+
+            <ul>
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Lorem ipsum dolor sit amet, conr adipiscing elit.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Lorem ipsum dolor sit amet, conr adipiscing elit.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Donec lacinia risus et mauris malesuada accumsan.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Nunc eleifend sem non vehicula pharetra.
+              </li>
+
+              <li>
+                <span
+                  ><img src="assets/images/static/tick check.png" alt=""
+                /></span>
+                Etiam pellentesque urna vel eleifend feugiat.
+              </li>
+            </ul>
+
+            <div class="button-div">
+              <a href="" class="custom-btn-three">Know more</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image-wrap">
+              <img src="assets/images/static/portfolio-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- features section -->
+    <!-- Portfolio section -->
 
+    <!-- Features section -->
 
-    <!-- testimonial section -->
-
-    <section class="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 testimonial__content">
-                    
-                    <div class="col-md-4 img-wrap">
-                        <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-9.png" alt="">
-                    </div>
-
-                    <div class="col-md-8 text-content">
-                        <h2>"It is really refreshing to work with this software which is truly helpful in the client’s preferences."</h2>
-
-                        <h5>Rebecca Calderon</h5>
-                        <p>Head of marketing, Apple Inc.</p>
-
-                    </div>
-
-                </div>
-
+    <section class="features-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 heading__area text-center mb-5">
+            <div class="cutom-tag">
+              <h5>What Do You Want</h5>
             </div>
+
+            <h2>To Add To Your Website?</h2>
+
+            <p>
+              Fusce posuere ac enim non ornare. Morbi lacus felis, laoreet a
+              nunc et, volutpat tincidunt velit. Suspendi sseaugue dolo potenti.
+            </p>
+          </div>
         </div>
 
-    </section>
+        <div class="row box__row p0">
+          <div class="col-md-4">
+            <div class="content">
+              <div class="image__wrap">
+                <img src="assets/images/static/feature-1.png" alt="" />
+              </div>
+              <h4>Powerful Dashboard</h4>
+              <p>
+                Our system offers a powerful dashboard where admin users can see
+                the details like total number of events, total tickets sold even
+                with a graphical view with live data.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <div class="image__wrap">
+                <img src="assets/images/static/feature-2.png" alt="" />
+              </div>
+              <h4>POS</h4>
+              <p>
+                POS is one among the major features where you can sell the
+                tickets from the venue under each category by mentioning the
+                number of tickets and collect the payment as either cash or
+                Card. You can even print tickets from this.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <div class="image__wrap">
+                <img src="assets/images/static/feature-3.png" alt="" />
+              </div>
+              <h4>Multiple Ticket Category</h4>
+              <p>
+                You can create multiple ticket categories as Early , Pre or
+                Regular tickets and set date and time for each category to start
+                and end with the number of tickets. Also the reports can be
+                downloaded in CSV or PDF.
+              </p>
+            </div>
+          </div>
 
-    <!-- testimonial section -->
+          <div class="col-md-4">
+            <div class="content">
+              <div class="image__wrap">
+                <img src="assets/images/static/feature-4.png" alt="" />
+              </div>
+              <h4>Print Ticket</h4>
+              <p>
+                Simply print the ticket by entering the serial number for the
+                ticket. So customers can avoid the hassle of carrying the hard
+                printed tickets.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="content">
+              <div class="image__wrap">
+                <img src="assets/images/static/feature-5.png" alt="" />
+              </div>
+              <h4>Powerful Dashboard</h4>
+              <p>
+                With the easy check-in scan the QR code and provide access to
+                the customers for your events.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="content">
+              <div class="image__wrap">
+                <img src="assets/images/static/feature-6.png" alt="" />
+              </div>
+              <h4>Easy Check-In</h4>
+              <p>
+                With the easy check-in scan the QR code and provide access to
+                the customers for your events.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Pricing section -->
-
-    <section class="pricing-section">
-
-    <div class="img-container">
-
-        <div class="img-wrap-two">
-            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-13.png" alt="">
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row row-one">
-
-            <div class="col-md-12">
-                <div class="cutom-tag">
-                    <h5>Pricing plans</h5>
-                </div>
-
-                <h2>Pricing that suits your needs</h2>
-
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                    placeat facere possimus.</p>
-
-            </div>
-
-        </div>
-
-        <div class="row row-two">
-
-            <div class="col-md-4 services__column">
-                <div class="services__column__item-one">
-                    <div class="content">
-                        <h2>Starter</h2>
-
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.</p>
-
-                        <div class="price">
-                            <small>$</small>
-                            <h3> <span>50</span> /month</h3>
-                        </div>
-
-                        <a class="custom-btn-one" href="">Get started</a>
-
-                        <div class="lists">
-                            <ul>
-                                <li>Email ticketing</li>
-                                <li>Customer Management</li>
-                                <li>Mobile Apps</li>
-                                <li>Email Support</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4 services__column">
-                <div class="services__column__item-two">
-                    <div class="content">
-                        <h2>Team</h2>
-
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.</p>
-
-                        <div class="price">
-                            <small>$</small>
-                            <h3> <span>60</span> /month</h3>
-                        </div>
-
-                        <a class="custom-btn-one" href="">Get started</a>
-
-                        <div class="lists">
-                            <ul>
-                                <li>Email ticketing</li>
-                                <li>Customer Management</li>
-                                <li>Mobile Apps</li>
-                                <li>Email Support</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4 services__column">
-                <div class="services__column__item-three">
-                    <div class="content">
-                        <h2>Enterprise</h2>
-
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.</p>
-
-                        <div class="price">
-                            <small>$</small>
-                            <h3> <span>120</span> /month</h3>
-                        </div>
-
-                        <a class="custom-btn-one" href="">Get started</a>
-
-                        <div class="lists">
-                            <ul>
-                                <li>Email ticketing</li>
-                                <li>Customer Management</li>
-                                <li>Mobile Apps</li>
-                                <li>Email Support</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            
-
-        </div>
-
-        <div class="row row-three">
-            <div class="our-clients">
-
-                <div class="img-wrap">
-                    <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/image-197.png" alt="">
-                </div>
-
-                <ul>
-                    <li>
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Frame-103.png" alt=""> </a>
-                    </li>
-                    <li>
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Frame-99.png" alt=""> </a>
-                    </li>
-                    <li>
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Frame-100.png" alt=""> </a>
-                    </li>
-                    <li>
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Frame-101.png" alt=""> </a>
-                    </li>
-                    <li>
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Frame-106.png" alt=""> </a>
-                    </li>
-                    <li>
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/Frame-107.png" alt=""> </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-    </div>
-
-    </section>
-
-    <!-- Pricing section -->
-
-    <!-- More features -->
-
-    <section class="more-features">
-
-        <div class="img-container">
-    
-            <div class="img-wrap-two">
-                <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-11.png" alt="">
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row row-one">
-
-                <div class="col-md-12">
-                    <div class="cutom-tag">
-                        <h5>More features</h5>
-                    </div>
-    
-                    <h2>Find out more from our software</h2>
-
-                </div>
-
-            </div>
-
-            <div class="row row-two">
-
-                <div class="col-md-3 services__column">
-                    <div class="services__column__item-one">
-                        <div class="content">
-                            <div class="img-wrap">
-                                <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/visualization-1.png" alt="">
-                            </div>
-
-                            <h3>Free Library </h3>
-                            <p>Neque porro quisquam est, qui dolorem ipsum.</p>
-
-                        </div>
-
-                        <a class="custom-btn-arrow" href="">See the library <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 services__column">
-                    <div class="services__column__item-two">
-                        <div class="content">
-                            <div class="img-wrap">
-                                <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/wrench-3.png" alt="">
-                            </div>
-
-                            <h3>Tech Support</h3>
-                            <p>Neque porro quisquam est, qui dolorem ipsum.</p>
-
-                        </div>
-
-                        <a class="custom-btn-arrow" href="">Contact support <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 services__column">
-                    <div class="services__column__item-three">
-                        <div class="content">
-                            <div class="img-wrap">
-                                <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/star-1.png" alt="">
-                            </div>
-
-                            <h3>Partner Program</h3>
-                            <p>Neque porro quisquam est, qui dolorem ipsum.</p>
-
-                        </div>
-
-                        <a class="custom-btn-arrow" href="">Discover more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 services__column">
-                    <div class="services__column__item-four">
-                        <div class="content">
-                            <div class="img-wrap">
-                                <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/speech-bubbles-3.png" alt="">
-                            </div>
-
-                            <h3>Contact Sales</h3>
-                            <p>Neque porro quisquam est, qui dolorem ipsum.</p>
-
-                        </div>
-
-                        <a class="custom-btn-arrow" href="">Discover more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-
-                </div>
-                
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- More features -->
-
-    <!-- Last section -->
-
-    <section class="last-section">
-
-        <div class="img-wrap">
-            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-10-1.png" alt="">
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="content">
-                    <h1>Improve your business and make your work easy</h1>
-
-                    <a class="custom-btn-one" href="">Start free trial</a>
-                </div>
-                
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Last section -->
 
     <!-- Footer section -->
 
     <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-one">
-                    <div class="img-wrap">
-                        <a href=""> <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/LOGO-WHITE.png" alt=""> </a>
-                    </div>
+      <div class="footer__bg">
+        <div class="image__wrap">
+          <img src="assets/images/static/footer-bg.png" alt="" />
+        </div>
+      </div>
 
-                    <div class="address">
-                        <p> 2307 Beverley Rd, New York </p>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 column">
+            <div class="footer_header">
+              <h4>Quick Links</h4>
+            </div>
 
-                    <div class="phone">
-                        <a class="phone" href="tel:+(0712)81979555"> + (0712) 819 79 555 </a>
-                    </div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Price</a></li>
+              <li><a href="#">Platform Experience</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
 
-                    <div class="email">
-                        <a class="email" href="mailto:office@finance.com">office@finance.com</a>
-                    </div>
+          <div class="col-md-3 column">
+            <div class="footer_header">
+              <h4>Our Services</h4>
+            </div>
 
-                    <div class="social-icons">
-                        <a href=""> <img class="insta" src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/instagram-1-4.png" alt=""> </a>
-                        <a href=""> <img class="fb" src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/facebook-2-5.png" alt=""> </a>
-                        <a href=""> <img class="tweet" src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/twitter-2-4.png" alt=""> </a>
-                        <a href=""> <img class="youtube" src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/youtube-2-3.png" alt=""> </a>
-                    </div>
+            <ul>
+              <li><a href="#">Virtual</a></li>
+              <li><a href="#">Expand</a></li>
+              <li><a href="#">Annualize</a></li>
+              <li><a href="#">Trach</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 column">
+            <div class="footer_header">
+              <h4>Important Links</h4>
+            </div>
 
-                </div>
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 column">
+            <div class="footer_header">
+              <h4>Contact Information</h4>
+            </div>
 
-                <div class="col-md-2">
+            <ul>
+              <li>
+                <span
+                  ><img src="assets/images/static/location-icon.png" alt=""
+                /></span>
+                Aprox Tower, 1St Floor, Office No. 109, Business Bay, Dubai, UAE
+              </li>
+              <li>
+                <span
+                  ><img src="assets/images/static/mail-icon.png" alt=""
+                /></span>
+                support@lamha.com
+              </li>
+              <li>
+                <span
+                  ><img src="assets/images/static/phone-icon.png" alt=""
+                /></span>
+                Contact Us Free
+                <span class="contact__number"></span> (+971)-56-6027916
+              </li>
+            </ul>
+          </div>
+        </div>
 
-                    <h4>Service</h4>
+        <div class="row newsletter p3">
+          <div class="col-md-12">
+            <h2>Sign Up To Get Latest Updates</h2>
+          </div>
 
-                    <ul>
-                        <li>About</li>
-                        <li>Team</li>
-                        <li>Services</li>
-                        <li>Blog</li>
-                        <li>Portfolio</li>
-                    </ul>
+          <div class="form__wrap">
+            <form action="form.php">
+                <input
+                  class="email-input"
+                  type="email"
+                  id="emails"
+                  placeholder="Your email address"
+                  name="emails"
+                />
+                <input class="submit-btn custom_submit" type="submit" />
+              </form>
+          </div>
+        </div>
 
-                </div>
-                <div class="col-md-2">
-                    <h4>Service</h4>
-
-                    <ul>
-                        <li>About</li>
-                        <li>Team</li>
-                        <li>Services</li>
-                        <li>Blog</li>
-                        <li>Portfolio</li>
-                    </ul>
-
-                </div>
-                <div class="col-md-2">
-                    <h4>Service</h4>
-
-                    <ul>
-                        <li>About</li>
-                        <li>Team</li>
-                        <li>Services</li>
-                        <li>Blog</li>
-                        <li>Portfolio</li>
-                    </ul>
-
-                </div>
-
-                <div class="col-md-3 col-last">
-                    <form action="/action_page.php">
-                        <input class="email-input" type="email" id="emails" placeholder="Your Email" name="emails" multiple>
-                        <input class="submit-btn custom-btn-one" type="submit">
-                      </form>
-
+        <div class="row copyright">
+            <div class="col-md-4">
+                <p>© Copyright 2022 Lamha. All Rights Reserved. </p>
+            </div>
+            <div class="col-md-4">
+                <div class="footer__icons">
+                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
                 </div>
             </div>
+            <div class="col-md-4 copyright-link">
+                <p>Design and Developed by <a href="https://fuadhasanemon.com/">Royex</a> Technologies</p>
+            </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer section -->
-
-
 
     <!--======================= js links ======================= -->
     <script src="assets/js/jquery.min.js"></script>
@@ -759,8 +748,5 @@
     <script src="assets/lib/nice_select/jquery.nice-select.min.js"></script>
     <script src="assets/lib/preload/image-preloader.js"></script>
     <script src="assets/js/home.js"></script>
-
-
-</body>
-
+  </body>
 </html>
