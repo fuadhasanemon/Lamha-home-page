@@ -240,6 +240,10 @@ html body .nav-bar #custom-navbar {
 
     .hero-row {
 
+        @media (max-width: 767px) {
+            padding: 0 15px !important;
+        }
+
         h1 {
             font-size: 59px;
             line-height: 61px;
@@ -355,26 +359,10 @@ html body .nav-bar #custom-navbar {
 .services {
     padding-top: 120px;
     padding-bottom: 120px;
-    // background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/Section-1.png);
-
-
-    // .img-container {
-    //     position: relative;
-
-    //     .img-wrap {
-    //         position: absolute;
-    //         max-width: 10%;
-    //         right: 10%;
-    //         top: 0;
-    //     }
     
-    //     .img-wrap-two {
-    //         position: absolute;
-    //         max-width: 7%;
-    //         left: 180px;
-    //         bottom: -850px;
-    //     }
-    // }
+    @media (max-width: 767px) {
+        padding-bottom: 60px;
+    }
 
      /* the slides */
     .slick-slide {
@@ -411,6 +399,10 @@ html body .nav-bar #custom-navbar {
 
                     .content { 
                         margin-bottom: 30px;
+
+                        @media (max-width: 767px) {
+                            padding: 0 15px;
+                        }
 
                         .img-wrap {
                             margin-bottom: 20px;
@@ -456,9 +448,17 @@ html body .nav-bar #custom-navbar {
     overflow: hidden;
     background-color: #2CB7EA;
 
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
 
     .container {
         padding: 0;
+
+        @media (max-width: 767px) {
+            padding: 0 15px;
+        }
     }
 
     .custom-shape-divider-top-1654898688 {
@@ -498,13 +498,32 @@ html body .nav-bar #custom-navbar {
     .portfolio__content {
         margin-bottom: 60px;
 
+        @media (max-width: 767px) {
+            padding: 0 15px;
+        }
+
+        .col-md-6 {
+            @media (max-width: 767px) {
+                margin-bottom: 40px;
+            }
+        }
+
         .heading__area {
             h5 {
                 margin-bottom: 15px;
+
+                @media (max-width: 767px) {
+                    font-size: 13px;
+                }
             }
 
             h2 {
                 margin-bottom: 20px;
+
+                @media (max-width: 767px) {
+                    font-size: 35px;
+                    line-height: 45px;
+                }
             }
 
             p {
@@ -534,6 +553,11 @@ html body .nav-bar #custom-navbar {
             line-height: 45px;
             text-transform: capitalize;
             margin-bottom: 20px;
+
+            @media (max-width: 767px) {
+                font-size: 25px;
+                line-height: 35px;
+            }
         }
     
         .portfolio__paragraph {
@@ -573,6 +597,17 @@ html body .nav-bar #custom-navbar {
 // Features section
 .features-section {
     padding: 120px 0;    
+
+    @media (max-width: 767px) {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 767px) {
+        h2 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+    }
 
     .box__row {
         margin-bottom: -20px;
@@ -617,6 +652,10 @@ html body .nav-bar #custom-navbar {
    background-color: #0D0D0D;
    position: relative;
    overflow: hidden;
+
+   @media (max-width: 767px) {
+    padding: 60px 15px 0px 15px;
+}
 
    .footer__bg {
     position: absolute;
@@ -699,7 +738,9 @@ html body .nav-bar #custom-navbar {
         background-color: #FFFFFF;
         border-radius: 5px;
         overflow: hidden;
+        margin: 0 15px;
         form {
+            display: flex;
             input {
                 height: 100%;
                 padding: 20px 30px;
@@ -729,9 +770,15 @@ html body .nav-bar #custom-navbar {
         color: #FFFFFF;
         text-align: center;
 
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
         span {
             padding: 0 15px;
         }
+
     }
 
     .copyright-link {
