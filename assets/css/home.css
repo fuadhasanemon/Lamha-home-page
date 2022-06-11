@@ -986,6 +986,9 @@ html body .nav-bar #custom-navbar {
     left: 0;
     right: 0;
     height: 100vh; }
+  @media (max-width: 767px) {
+    .home-banner .hero-row {
+      padding: 0 15px !important; } }
   .home-banner .hero-row h1 {
     font-size: 59px;
     line-height: 61px;
@@ -1057,6 +1060,9 @@ html body .nav-bar #custom-navbar {
   padding-bottom: 120px;
   /* the slides */
   /* the parent */ }
+  @media (max-width: 767px) {
+    .services {
+      padding-bottom: 60px; } }
   .services .slick-slide {
     margin: 20px 20px; }
   .services .slick-list {
@@ -1071,6 +1077,9 @@ html body .nav-bar #custom-navbar {
       margin-bottom: 50px; } }
   .services .container .row-two .services__column .services__column__item .content {
     margin-bottom: 30px; }
+    @media (max-width: 767px) {
+      .services .container .row-two .services__column .services__column__item .content {
+        padding: 0 15px; } }
     .services .container .row-two .services__column .services__column__item .content .img-wrap {
       margin-bottom: 20px;
       box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 21px 0px;
@@ -1093,8 +1102,14 @@ html body .nav-bar #custom-navbar {
   padding: 120px 0;
   overflow: hidden;
   background-color: #2CB7EA; }
+  @media (max-width: 767px) {
+    .portfolio-section {
+      padding: 60px 0; } }
   .portfolio-section .container {
     padding: 0; }
+    @media (max-width: 767px) {
+      .portfolio-section .container {
+        padding: 0 15px; } }
   .portfolio-section .custom-shape-divider-top-1654898688 {
     position: absolute;
     top: 0;
@@ -1118,10 +1133,23 @@ html body .nav-bar #custom-navbar {
     flex-direction: row-reverse; }
   .portfolio-section .portfolio__content {
     margin-bottom: 60px; }
+    @media (max-width: 767px) {
+      .portfolio-section .portfolio__content {
+        padding: 0 15px; } }
+    @media (max-width: 767px) {
+      .portfolio-section .portfolio__content .col-md-6 {
+        margin-bottom: 40px; } }
     .portfolio-section .portfolio__content .heading__area h5 {
       margin-bottom: 15px; }
+      @media (max-width: 767px) {
+        .portfolio-section .portfolio__content .heading__area h5 {
+          font-size: 13px; } }
     .portfolio-section .portfolio__content .heading__area h2 {
       margin-bottom: 20px; }
+      @media (max-width: 767px) {
+        .portfolio-section .portfolio__content .heading__area h2 {
+          font-size: 35px;
+          line-height: 45px; } }
     .portfolio-section .portfolio__content .heading__area p {
       font-size: 16px;
       line-height: 24px;
@@ -1140,6 +1168,10 @@ html body .nav-bar #custom-navbar {
       line-height: 45px;
       text-transform: capitalize;
       margin-bottom: 20px; }
+      @media (max-width: 767px) {
+        .portfolio-section .portfolio__content .portfolio__title {
+          font-size: 25px;
+          line-height: 35px; } }
     .portfolio-section .portfolio__content .portfolio__paragraph {
       font-size: 16px;
       line-height: 24px;
@@ -1161,6 +1193,13 @@ html body .nav-bar #custom-navbar {
 
 .features-section {
   padding: 120px 0; }
+  @media (max-width: 767px) {
+    .features-section {
+      padding: 60px 0; } }
+  @media (max-width: 767px) {
+    .features-section h2 {
+      font-size: 35px;
+      line-height: 45px; } }
   .features-section .box__row {
     margin-bottom: -20px; }
     .features-section .box__row .content {
@@ -1189,6 +1228,9 @@ html body .nav-bar #custom-navbar {
   background-color: #0D0D0D;
   position: relative;
   overflow: hidden; }
+  @media (max-width: 767px) {
+    .footer {
+      padding: 60px 15px 0px 15px; } }
   .footer .footer__bg {
     position: absolute; }
   .footer .column .footer_header h4 {
@@ -1237,15 +1279,18 @@ html body .nav-bar #custom-navbar {
     .footer .newsletter .form__wrap {
       background-color: #FFFFFF;
       border-radius: 5px;
-      overflow: hidden; }
-      .footer .newsletter .form__wrap form input {
-        height: 100%;
-        padding: 20px 30px;
-        border: none;
-        overflow: hidden; }
-      .footer .newsletter .form__wrap form .custom_submit {
-        background-color: #2CB7EA;
-        color: #FFFFFF; }
+      overflow: hidden;
+      margin: 0 15px; }
+      .footer .newsletter .form__wrap form {
+        display: flex; }
+        .footer .newsletter .form__wrap form input {
+          height: 100%;
+          padding: 20px 30px;
+          border: none;
+          overflow: hidden; }
+        .footer .newsletter .form__wrap form .custom_submit {
+          background-color: #2CB7EA;
+          color: #FFFFFF; }
   .footer .copyright {
     padding: 50px 0; }
     .footer .copyright p {
@@ -1255,6 +1300,10 @@ html body .nav-bar #custom-navbar {
     .footer .copyright .footer__icons {
       color: #FFFFFF;
       text-align: center; }
+      @media (max-width: 767px) {
+        .footer .copyright .footer__icons {
+          margin-bottom: 20px;
+          text-align: left; } }
       .footer .copyright .footer__icons span {
         padding: 0 15px; }
     .footer .copyright .copyright-link p a {
