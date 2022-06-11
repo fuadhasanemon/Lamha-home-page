@@ -361,7 +361,8 @@ html body .nav-bar #custom-navbar {
     padding-bottom: 120px;
     
     @media (max-width: 767px) {
-        padding-bottom: 60px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
      /* the slides */
