@@ -1062,7 +1062,8 @@ html body .nav-bar #custom-navbar {
   /* the parent */ }
   @media (max-width: 767px) {
     .services {
-      padding-bottom: 60px; } }
+      padding-top: 0;
+      padding-bottom: 0; } }
   .services .slick-slide {
     margin: 20px 20px; }
   .services .slick-list {
